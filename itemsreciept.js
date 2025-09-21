@@ -1,4 +1,4 @@
-// ---------------- Exercise 1: Calculate total sales amount ----------------
+// Exercise 1: Calculate total sales amount
 
 // Defines an array `sales` with 3 objects. Each object has `item`, `quantity`, and `price`.
 const sales = [
@@ -25,7 +25,7 @@ function calculateTotalSales(sales) {
 console.log("Total Sales Amount:", calculateTotalSales(sales));
 
 
-// ---------------- Exercise 2: Generate an order receipt ----------------
+//Exercise 2: Generate an order receipt
 
 // Defines an array of coffee orders with item name, quantity, and price.
 const orders = [
@@ -62,7 +62,7 @@ function generateReceipt(orders) {
 generateReceipt(orders);
 
 
-// ---------------- Exercise 3: Validate passwords ----------------
+// Exercise 3: Validate passwords
 
 // List of sample passwords that will be tested.
 const passwords = ["Password123", "short", "ValidPass123", "too_long_password_example", "12345"];
@@ -89,7 +89,7 @@ function validatePasswords(passwords) {
 validatePasswords(passwords);
 
 
-// ---------------- Exercise 4: Track product stock levels ----------------
+//Exercise 4: Track product stock levels
 
 // Defines an array of products, each with a name and stock count.
 const products = [
@@ -115,3 +115,4 @@ function checkStockLevels(products) {
 
 // Calls the function to check and print stock statuses.
 checkStockLevels(products);
+
